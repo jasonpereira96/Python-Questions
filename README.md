@@ -144,6 +144,7 @@ It should have the following methods
 - deposit(amount) => amount should be added to balance
 
 ## Q12B
+**Prerequsites: Understanding objects and classes and inheritance**
 Design 2 classes `SavingsAccount` and `CheckingAccount`
 They should both extend `BankAccount`
 
@@ -195,8 +196,10 @@ Implement 3 functions:
 
 
 ## Q20
-Update the `BankAccount` class in Q12. Add a method `transfer(acc1, acc2, amount)` to `BankAccount`. Money should get transferred from acc1 to acc2 and the respective balances should get updated. Ensure that the transfer does not take place if acc1 does not have enough balance.
-`acc1` and `acc2` are objects of type `BankAccount`.
+**Prerequsites: Understanding objects and classes**
+
+Update the `BankAccount` class in Q12. Add a method `transfer(acc2, amount)` to `BankAccount`. Money should get transferred from this account to acc2 and the respective balances should get updated. Ensure that the transfer does not take place if this account does not have enough balance.
+ `acc2` is an object of type `BankAccount`.
 
 ## Q21
 Calculate the value of π using the Leibniz formula for π. Only expand upto the first 1000 terms. Print the final value of π.
