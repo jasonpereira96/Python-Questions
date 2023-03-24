@@ -103,10 +103,10 @@ def contains(alist, x):
 def create_new_list(size):
 	pass
 
-def filter(x):
+def filter(alist, x):
 	pass
 
-def find_index(x):
+def find_index(alist, x):
 	pass
 
 def double(alist):
@@ -119,3 +119,60 @@ def double_and_multiply(alist, x):
 	pass
 
 ```
+
+Examples: 
+```
+double([1,2,3]) => [1,2,3,1,2,3]
+multiply([1,2,3],2) => [2,4,6]
+double_and_multiply([1,2,3], 2) => [2,4,6,2,4,6]
+create_new_list(4) => [0,0,0,0]
+filter([1,2,3,4,5,6], 4) => [1,2,3,4]
+contains([1,2,3], 3) => True
+contains([1,2,3], 0) => False
+```
+
+## Q12
+Design a class `BankAccount`.
+It should have the following fields:
+- owner_name -> String
+- balance -> int
+
+It should have the following methods
+- get_balance()
+- get_owner()
+- withdraw(amount) => amount should be subracted from balance
+- deposit(amount) => amount should be added to balance
+
+## Q12B
+Design 2 classes `SavingsAccount` and `CheckingAccount`
+They should both extend `BankAccount`
+
+`SavingsAccount` should have an additional method `deposit_interest(rate)` 
+where the `rate` will be something like 12.5
+So if the current balance is 100 and the user calls `deposit_interest(12.5)`, the current balance is now 112.5.
+
+`CheckingAccount` should internally maintain a list of credit card numbers.
+These card numbers are stored as strings.
+Initially, this list is empty.
+The user can then call `add_credit_card(card_number)` on this class and the passed card number is added to the list.
+
+There should also be another method `get_most_recent_card()` which will return the most recently added card.
+
+
+## Q13
+Download the file `numbers.csv` from the resources folder. Write a program that opens this file, reads the data and creates a new file called `result.csv` with 2 additional columns, `sum` and `product`. There columns should contain the sum and product of the cols A and B in each row.
+
+## Q14
+Consider the string 
+```
+The quick brown fox jumps over the lazy dog
+```
+Write a program that removes all the vowels from it and prints it out.
+
+## Q15
+Open the file `prices.csv`. 
+Read the data and print the following stats:
+- The max price and the date it reached that price
+- The min price and the date it reached that price
+- The median price and the date it reached that price
+- The mean price
