@@ -176,6 +176,7 @@ Read the data and print the following stats:
 - The min price and the date it reached that price
 - The median price and the date it reached that price
 - The mean price
+- The second highest price and the date it reached that price
 
 ## Q16
 Write a program that prints a multiplication table for all numbers up to 12.
@@ -196,3 +197,12 @@ Implement 3 functions:
 ## Q20
 Update the `BankAccount` class in Q12. Add a method `transfer(acc1, acc2, amount)` to `BankAccount`. Money should get transferred from acc1 to acc2 and the respective balances should get updated. Ensure that the transfer does not take place if acc1 does not have enough balance.
 `acc1` and `acc2` are objects of type `BankAccount`.
+
+## Q21
+Calculate the value of π using the Leibniz formula for π. Only expand upto the first 1000 terms. Print the final value of π.
+
+https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
+
+## Q22
+Read all the data from `colors.csv`. Create a Python dictionary to store the mapping from a person's name to their favourite color.
+Ask the user to enter the name of a person. If their name was present in the file, print out their favourite color. Otherwise, print out `I do not know this person`
