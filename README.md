@@ -185,3 +185,14 @@ Write a function that tests whether a string is a palindrome.
 
 ## Q18
 Write a function that combines two lists by alternatingly taking elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
+
+## Q19
+Implement 3 functions:
+- `factorial(x)`
+- `nCr(n, r)`
+- `nPr(n, r)`
+
+
+## Q20
+Update the `BankAccount` class in Q12. Add a method `transfer(acc1, acc2, amount)` to `BankAccount`. Money should get transferred from acc1 to acc2 and the respective balances should get updated. Ensure that the transfer does not take place if acc1 does not have enough balance.
+`acc1` and `acc2` are objects of type `BankAccount`.
