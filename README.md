@@ -209,3 +209,27 @@ https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
 ## Q22
 Read all the data from `colors.csv`. Create a Python dictionary to store the mapping from a person's name to their favourite color.
 Ask the user to enter the name of a person. If their name was present in the file, print out their favourite color. Otherwise, print out `I do not know this person`
+
+
+## Q23
+Consider the following 2 functions:
+```python
+def change_value(a):
+	a = a + 1
+
+def change_value2(alist):
+	alist[0] = alist[0] + 1	
+
+
+v1 = 4
+v2 = [4]
+
+change_value(v1)
+change_value2(v2)
+
+print(v1)
+print(v2)
+```
+
+- Why does the value of `v1` not change after calling the function?
+- Why does the value of `v2` change after calling the function?
