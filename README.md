@@ -176,3 +176,12 @@ Read the data and print the following stats:
 - The min price and the date it reached that price
 - The median price and the date it reached that price
 - The mean price
+
+## Q16
+Write a program that prints a multiplication table for all numbers up to 12.
+
+## Q17
+Write a function that tests whether a string is a palindrome.
+
+## Q18
+Write a function that combines two lists by alternatingly taking elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
