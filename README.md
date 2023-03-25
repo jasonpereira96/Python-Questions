@@ -190,6 +190,7 @@ Write a function that combines two lists by alternatingly taking elements, e.g. 
 
 ## Q19
 Implement 3 functions:
+- `factorialr(x)` Calculates the factorial of x recursively
 - `factorial(x)`
 - `nCr(n, r)`
 - `nPr(n, r)`
