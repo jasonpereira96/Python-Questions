@@ -170,6 +170,8 @@ The quick brown fox jumps over the lazy dog
 ```
 Write a program that removes all the vowels from it and prints it out.
 
+https://leetcode.com/problems/remove-vowels-from-a-string/
+
 ## Q15
 Open the file `prices.csv`. 
 Read the data and print the following stats:
@@ -234,3 +236,23 @@ print(v2)
 
 - Why does the value of `v1` not change after calling the function?
 - Why does the value of `v2` change after calling the function?
+
+
+## Q24
+Select Python3 as the language and solve this. Press the Submit button to run it against all the test cases.
+https://leetcode.com/problems/two-sum/
+
+
+
+# Q25
+Solve these:
+- https://leetcode.com/problems/convert-the-temperature/
+- https://leetcode.com/problems/defanging-an-ip-address/
+- https://leetcode.com/problems/number-of-good-pairs/
+- https://leetcode.com/problems/jewels-and-stones/ (Concepts covered: Python dicts)
+- https://leetcode.com/problems/running-sum-of-1d-array/
+
+# Q26
+- https://leetcode.com/problems/decode-the-message/ (Concepts covered: Python dicts, ASCII (maybe))
+
+Pray to God before starting this question
