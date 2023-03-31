@@ -244,7 +244,7 @@ https://leetcode.com/problems/two-sum/
 
 
 
-# Q25
+## Q25
 Solve these:
 - https://leetcode.com/problems/convert-the-temperature/
 - https://leetcode.com/problems/defanging-an-ip-address/
@@ -252,7 +252,26 @@ Solve these:
 - https://leetcode.com/problems/jewels-and-stones/ (Concepts covered: Python dicts)
 - https://leetcode.com/problems/running-sum-of-1d-array/
 
-# Q26
+## Q26
 - https://leetcode.com/problems/decode-the-message/ (Concepts covered: Python dicts, ASCII (maybe))
 
 Pray to God before starting this question
+
+```python
+class Solution:
+    def decodeMessage(self, key: str, message: str) -> str:
+        mapping = {}
+        mapping[" "] = " "
+        ascii = 97
+        for ch in key:
+            if ch not in mapping:
+                mapping[ch] = chr(ascii)
+                ascii = ascii + 1
+
+        
+        answer = []
+        for ch in message:
+            answer.append(mapping[ch])
+        
+        return "".join(answer)
+```
