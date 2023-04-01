@@ -275,3 +275,44 @@ class Solution:
         
         return "".join(answer)
 ```
+
+## Q27
+What is the difference between a local variable, instance variable and global variable?
+
+
+## Q28
+Read data from the file `accounts.csv` and create one bank account for each person.
+
+- Transfer $1000 from Oliver to Royce
+- Transfer $4000 from Stewie to Lois
+- Deposit $3500 in Jason's account
+- Withdraw $5000 from Royce's account
+- Double Peter's balance
+- Add a year's worth of interest to Jason's account at 12%
+- Add a year's worth of interest to Royce's account at 15%
+- Print the final balances of all the accounts
+
+**Note: Do not access any instance variable directly. Use methods to change the values of an instance variable**
+
+Create a new file `final_accounts.csv` and write back all the final balances in the same format as the original file.
+
+This is (ONE) of the ways that classes are used in practice and it is also kind of how databases work.
+
+## Q29 functional programming
+
+Do this last
+
+Understand
+- `filter()`
+- `map()`
+- `reduce()`
+
+
+Rewrite this code snippet using `map()`
+
+```python
+items = [1,2,3,4]
+answer = []
+for x in items:
+   answer.append(x * 2)
+```
