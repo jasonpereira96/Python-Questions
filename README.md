@@ -316,3 +316,34 @@ answer = []
 for x in items:
    answer.append(x * 2)
 ```
+
+## Q30
+Design a class `Matrix` which supports the following methods:
+
+- `get_values()`
+- `add(matrixB)`
+- `subract(matrixB)`
+- `multiply(matrixB)`
+- `get_row(index)`
+- `get_col(index)`
+- `get_dims()` returns a tuple of (n_rows, n_cols)
+- `create_identity_matrix(size)` static/class method
+
+## Other topics to cover
+- diamond problem
+- list comprehension
+- lambda expression
+- decorators (optional)
+- `break` and `continue`
+- `nonlocal` and `global`
+- returning multiple values
+- `pass`
+- `None`
+- `pickle`
+- kwargs
+- varargs (args)
+- negative index for lists
+- Bubble sort
+- Merge sort (optional)
+- binary search
+- operator overloading
