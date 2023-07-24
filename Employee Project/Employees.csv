@@ -1,0 +1,14 @@
+id,manager_id,name,salary,department_id
+1,9,Peter Griffin,10000,1
+2,1,Stewie Griffin,2000,2
+3,2,Brian Griffin,5000,3
+4,2,Lois Griffin,15000,4
+5,1,Meg Griffin,6000,5
+6,1,Chris Griffin,9000,1
+7,10,Homer Simpson,8500,2
+8,7,Bart Simpson,4500,3
+9,-1,Carter Pewterschmidt,3600,4
+10,2,Glenn Quagmire,7500,5
+11,3,Joe Swanson,5600,5
+12,5,Bonnie Swanson,4600,6
+13,8,Mort Goldman,12000,3
