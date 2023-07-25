@@ -49,6 +49,7 @@ For the options that require additional user input, ask for it.
 Persist all data to disk using the pickle module. The data should be loaded from any pickle files if present.
 If no pickle files are present, load the initial data from the csv/json files
 
+#### Use the starter code in `ep.py`
 
 
 | Priority  | Points |
