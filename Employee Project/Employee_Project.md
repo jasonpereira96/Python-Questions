@@ -44,12 +44,12 @@ For the options that require additional user input, ask for it.
 14. Most overworked employee (max number of projects assigned)
 15. Top 3 most overworked employees
 16. Compute Employee bonus. Bonus = 10 points (base) + per project points (given in table)
-17. List employees by monthly salary (show name and monthly salary)
+17. List employees by hourly salary (show name and hourly salary)
 
 Persist all data to disk using the pickle module. The data should be loaded from any pickle files if present.
 If no pickle files are present, load the initial data from the csv/json files
 
-#### Use the starter code in `ep.py`
+### Use the starter code in `ep.py`
 
 
 | Priority  | Points |

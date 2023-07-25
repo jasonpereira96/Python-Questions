@@ -35,7 +35,7 @@ class Employee:
     def get_all_subordinates(self):
         pass
 
-    def get_monthly_salary(self):
+    def get_hourly_salary(self):
         pass
 
     def get_projects_assigned(self):
