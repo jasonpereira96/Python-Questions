@@ -62,6 +62,33 @@ If no pickle files are present, load the initial data from the csv/json files
 
 ## Part 2: Add `flask`
 
+Add the REST APIs:
+
+## `GET /employees`
+
+## `GET /projects`
+
+## `GET /departments`
+
+## `GET /employees/<id>`
+
+## `POST /employees/`
+
+## `PATCH /employees/<id>`
+
+## `GET /employees/overworked`
+
+## `GET /employees/bonus`
+
+## `GET /employees?department_id=<dept_id>`
+
+## `GET /employees/<id>/subordinates`
+
+## `GET /employees/<id>/subordinates?all=true`
+
+## `GET /search?q=<search-term>`
+
+
 ## Part 3: Add security
 
 ## Part 4: Add MySQL
