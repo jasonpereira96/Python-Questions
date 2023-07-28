@@ -57,3 +57,12 @@ If no pickle files are present, load the initial data from the csv/json files
 | 1-3  | 5  |
 | 4-6  | 3  |
 | 7-10  | 2  |
+
+## Intermezzo: Learn HTTP, REST and JSON
+
+## Part 2: Add `flask`
+
+## Part 3: Add security
+
+## Part 4: Add MySQL
+
