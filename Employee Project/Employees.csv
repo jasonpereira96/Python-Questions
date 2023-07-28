@@ -10,5 +10,5 @@ id,manager_id,name,salary,department_id
 9,-1,Carter Pewterschmidt,3600,4
 10,2,Glenn Quagmire,7500,5
 11,3,Joe Swanson,5600,5
-12,5,Bonnie Swanson,4600,6
+12,5,Bonnie Swanson,4600,2
 13,8,Mort Goldman,12000,3
