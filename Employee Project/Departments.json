@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Engineering",
+    "hod": 2
+  },
+  {
+    "id": 2,
+    "name": "Finance",
+    "hod": 3
+  },
+  {
+    "id": 3,
+    "name": "Accouting",
+    "hod": 1
+  },
+  {
+    "id": 4,
+    "name": "Marketing",
+    "hod": 10
+  },
+  {
+    "id": 5,
+    "name": "Sales",
+    "hod": 10
+  }
+]
