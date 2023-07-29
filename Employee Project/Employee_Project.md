@@ -58,9 +58,9 @@ If no pickle files are present, load the initial data from the csv/json files
 | 4-6  | 3  |
 | 7-10  | 2  |
 
-## Intermezzo: Learn HTTP, REST and JSON
+# Intermezzo: Learn HTTP, REST and JSON
 
-## Part 2: Add `flask`
+# Part 2: Add `flask`
 
 Add the REST APIs:
 
@@ -89,7 +89,10 @@ Add the REST APIs:
 ## `GET /search?q=<search-term>`
 
 
-## Part 3: Add security
+# Part 3: Add security
 
-## Part 4: Add MySQL
+## `POST /login`
+Should return a token which will be used to validate every other request
 
+# Part 4: Add MySQL
+Persist your data to a database instead of a pickle file
