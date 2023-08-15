@@ -15,3 +15,24 @@
 - https://courses.cs.washington.edu/courses/cse160/23su/homework/a3/
 - https://cs1331.gitlab.io/fall2018.html
 - https://selfpaced.bitbucket.io/#/python/calendar (All, but specifically 3 and 4)
+- In Memory Tree based file system (https://leetcode.com/problems/design-in-memory-file-system/description/) Interesting project
+- Graph project - Given a list of bus routes, find a list of buses you have to take to get from stop A to stop B
+- Simple flight scheduling using DFS
+- Chat application using Tkinter, Flask and ngork
+
+## DSA Topics
+- **Asymtotic Analysis**
+- Arrays
+- Linked Lists
+- Hashtables
+- Binary Trees
+- BST
+- Stack 
+- Queue
+- Trees
+- Graphs (optional)
+
+## Data modelling (business requirement DB modelling questions)
+- Student
+- Employee
+- Something finance?
