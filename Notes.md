@@ -36,3 +36,24 @@
 - Student
 - Employee
 - Something finance?
+
+## Git
+- Mosh's video on Git: https://www.youtube.com/watch?v=8JJ101D3knE
+
+
+## Other Topics
+- Operating Systems
+- Computer Architecture
+- Front end development
+- Networking
+- Assembly programming
+- Languages and Automata (useless anyway)
+- Cryptography
+- Web secruity
+- NoSQL databases
+- Machine Learning
+- AI algorithms
+- Neural Networks
+
+# Useful links
+- https://github.com/ossu/computer-science#intro-cs
