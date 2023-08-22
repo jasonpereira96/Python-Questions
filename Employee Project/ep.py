@@ -1,6 +1,6 @@
 employees = []
 projects = []
-departments =[]
+departments = []
 
 def save_all_employees(emps):
     pass
@@ -137,6 +137,11 @@ while True:
     elif option == 4:
         projs = list_projects()
         print_list(projs)
+
+    elif option == 5:
+        department_id = int(input("Enter the department id: "))
+        emps = list_employees_by_department(department_id)
+        print_list(emps)
 
 
 
