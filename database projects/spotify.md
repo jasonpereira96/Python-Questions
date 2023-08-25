@@ -1,7 +1,7 @@
 # Spotify database design
 
 
-![Spotify](spot.png)
+![Spotify](spot.jpg)
 
 
 Congratulations! 
