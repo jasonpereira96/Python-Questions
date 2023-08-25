@@ -1,5 +1,9 @@
 # Spotify database design
 
+
+![Spotify](spot.png)
+
+
 Congratulations! 
 
 You have been hired as the lead data engineer at Spotify. The CEO wants you to redesign the entire data model of Spotify from ground up 
