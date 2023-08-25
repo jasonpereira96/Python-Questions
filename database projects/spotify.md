@@ -18,6 +18,7 @@ Here's a list of a few requirements to get you started:
 - Each song has an artist
 - A song can have multiple artists (eg: Run this Town - Kanye and Rihanna)
 - Users can make playlists
+- Users can like songs
 - Users can favourite songs
 - Users has 3 subscription plans - free, premium and premium+
 - Songs are part of albums are also part of multiple genres
