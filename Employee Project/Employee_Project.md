@@ -60,6 +60,11 @@ If no pickle files are present, load the initial data from the csv/json files
 
 # Intermezzo: Learn HTTP, REST and JSON
 
+## Theory
+We'll cover some theory needed for the next steps
+Watch this video on networking: https://www.youtube.com/watch?v=n_KghQP86Sw
+Watch this video on HTTP: https://www.youtube.com/watch?v=U6hkOAnFJxM  (Only till HTML)
+
 # Part 2: Add `flask`
 
 Add the REST APIs:
